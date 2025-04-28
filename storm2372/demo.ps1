@@ -62,6 +62,7 @@ if ($CONF.verbose -ge 2) {
 ##################################################################################
 # Globals
 ##################################################################################
+$tenant_id = "victim_tenant_id"       # for demo purpose
 $road_auth_file = ".roadtools_auth"
 
 ##################################################################################
@@ -380,6 +381,7 @@ $content = @"
 {
   "tokenType": "Bearer",
   "expiresOn": "$expires_on_string",
+  "tenantId": "$tenant_id",
   "_clientId": "$client2_id",
   "accessToken": "$access_token",
   "refreshToken": "$refresh_token",

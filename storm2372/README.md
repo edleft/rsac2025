@@ -26,6 +26,16 @@
 - roadtx.sh is the main demo script
   - runs demo.ps1 then roadtx, a little hackey in storing token files for roadtx 
   - roadtx can take tokens on cmd-line but the current demo.ps1 does some hacky stuff of creating a token file for roadtx in the right format. cleanup for later
+- set USER in roadtx.sh to victim username 
+- set $tenant_id in demo.ps1 to victim tenant id
+
+# Run
+1. Make sure roadtx is in your path
+2. Run: roadtx.sh
+3. Respond to phishing attack email (victim inbox) with authorization. Use new session and login with MFA.
+4. Clean up artifacts in Entra
+  - device registration (attacker-host)
+  - user > authentication methods > Windows Hello For Business
 
 # Storm 2372 
 - Microsoft advisory
