@@ -78,6 +78,5 @@
 # Acknowledgments
 - https://dirkjanm.io/phishing-for-microsoft-entra-primary-refresh-tokens/
 - Dr. Nestori Syynimaa: https://o365blog.com/post/phishing
-- Steve Borosh (rvrsh3ll), Bobby Cooke (boku7): https://github.com/rvrsh3ll/TokenTactics
 - https://github.com/netskopeoss/phish_oauth/blob/master/device_code/pwsh/demo_msft.ps1
 
