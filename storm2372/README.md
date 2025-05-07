@@ -37,55 +37,31 @@
   - device registration (attacker-host)
   - user > authentication methods > Windows Hello For Business
 
-# Attack Flows
+# Attack Flow
 
-## Valid Device Registration Flow Summary
 ![](img/Slide1.png)
-## Device Registration Abuse Flow Summary
 ![](img/Slide2.png)
-## OAuth Device Code Phish Flow Summary
-![Valid Device Registration](img/Slide3.png)
-## 4. Valid Device Registration
-![Valid Device Registration](img/Slide4.png)
-## 5. Valid Device Registration
-![Valid Device Registration](img/Slide5.png)
-## 5.Valid Device Registration
-![Valid Device Registration](img/Slide6.png)
-## 5.Valid Device Registration
-![Valid Device Registration](img/Slide7.png)
-## 5.Valid Device Registration
-![Valid Device Registration](img/Slide8.png)
-## 5.Valid Device Registration
-![Valid Device Registration](img/Slide9.png)
-## 5.Valid Device Registration
-![Valid Device Registration](img/Slide10.png)
-## 5.Valid Device Registration
-![Valid Device Registration](img/Slide11.png)
-## 5.Valid Device Registration
-![Valid Device Registration](img/Slide12.png)
-## 5.Valid Device Registration
-![Valid Device Registration](img/Slide13.png)
-## 5.Valid Device Registration
-![Valid Device Registration](img/Slide14.png)
-## 5.Valid Device Registration
-![Valid Device Registration](img/Slide15.png)
-## 5.Valid Device Registration
-![Valid Device Registration](img/Slide16.png)
-## 5.Valid Device Registration
-![Valid Device Registration](img/Slide17.png)
-## 5.Valid Device Registration
-![Valid Device Registration](img/Slide18.png)
-## 5.Valid Device Registration
-![Valid Device Registration](img/Slide19.png)
-## 5.Valid Device Registration
-![Valid Device Registration](img/Slide20.png)
-## 5.Valid Device Registration
-![Valid Device Registration](img/Slide21.png)
-## 5.Valid Device Registration
-![Valid Device Registration](img/Slide22.png)
-## 5.Valid Device Registration
-![Valid Device Registration](img/Slide23.png)
-
+![](img/Slide3.png)
+![](img/Slide4.png)
+![](img/Slide5.png)
+![](img/Slide6.png)
+![](img/Slide7.png)
+![](img/Slide8.png)
+![](img/Slide9.png)
+![](img/Slide10.png)
+![](img/Slide11.png)
+![](img/Slide12.png)
+![](img/Slide13.png)
+![](img/Slide14.png)
+![](img/Slide15.png)
+![](img/Slide16.png)
+![](img/Slide17.png)
+![](img/Slide18.png)
+![](img/Slide19.png)
+![](img/Slide20.png)
+![](img/Slide21.png)
+![](img/Slide22.png)
+![](img/Slide23.png)
 
 # Storm 2372 
 - Microsoft advisory
