@@ -37,6 +37,56 @@
   - device registration (attacker-host)
   - user > authentication methods > Windows Hello For Business
 
+# Attack Flows
+
+## Valid Device Registration Flow Summary
+![](img/Slide1.png)
+## Device Registration Abuse Flow Summary
+![](img/Slide2.png)
+## OAuth Device Code Phish Flow Summary
+![Valid Device Registration](img/Slide3.png)
+## 4. Valid Device Registration
+![Valid Device Registration](img/Slide4.png)
+## 5. Valid Device Registration
+![Valid Device Registration](img/Slide5.png)
+## 5.Valid Device Registration
+![Valid Device Registration](img/Slide6.png)
+## 5.Valid Device Registration
+![Valid Device Registration](img/Slide7.png)
+## 5.Valid Device Registration
+![Valid Device Registration](img/Slide8.png)
+## 5.Valid Device Registration
+![Valid Device Registration](img/Slide9.png)
+## 5.Valid Device Registration
+![Valid Device Registration](img/Slide10.png)
+## 5.Valid Device Registration
+![Valid Device Registration](img/Slide11.png)
+## 5.Valid Device Registration
+![Valid Device Registration](img/Slide12.png)
+## 5.Valid Device Registration
+![Valid Device Registration](img/Slide13.png)
+## 5.Valid Device Registration
+![Valid Device Registration](img/Slide14.png)
+## 5.Valid Device Registration
+![Valid Device Registration](img/Slide15.png)
+## 5.Valid Device Registration
+![Valid Device Registration](img/Slide16.png)
+## 5.Valid Device Registration
+![Valid Device Registration](img/Slide17.png)
+## 5.Valid Device Registration
+![Valid Device Registration](img/Slide18.png)
+## 5.Valid Device Registration
+![Valid Device Registration](img/Slide19.png)
+## 5.Valid Device Registration
+![Valid Device Registration](img/Slide20.png)
+## 5.Valid Device Registration
+![Valid Device Registration](img/Slide21.png)
+## 5.Valid Device Registration
+![Valid Device Registration](img/Slide22.png)
+## 5.Valid Device Registration
+![Valid Device Registration](img/Slide23.png)
+
+
 # Storm 2372 
 - Microsoft advisory
   https://www.microsoft.com/en-us/security/blog/2025/02/13/storm-2372-conducts-device-code-phishing-campaign/
