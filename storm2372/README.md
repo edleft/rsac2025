@@ -60,8 +60,6 @@
 ![](img/Slide19.png)
 ![](img/Slide20.png)
 ![](img/Slide21.png)
-![](img/Slide22.png)
-![](img/Slide23.png)
 
 # Storm 2372 
 - Microsoft advisory
