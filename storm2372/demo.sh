@@ -10,26 +10,17 @@ case "$MYDIR" in
     ;;
 esac
 
-[[ -f ~/lib/demo-magic.sh ]] && . ~/lib/demo-magic.sh
-[[ -f ./demo-magic.sh ]] && . ./demo-magic.sh
-NO_WAIT=true
-
-TYPE_SPEED=200
-# DEMO_PROMPT="victim-host:${CYAN}\W $ "
-DEMO_PROMPT="attacker-host:${CYAN}~ $ "
+PS1="attacker-host:~ $ "
 
 wait_enter()
 {
-    NO_WAIT=false
-    p ""
-    NO_WAIT=true
+    read x
 }
 
 wait_clear()
 {
-    NO_WAIT=false
-    pe "clear"
-    NO_WAIT=true
+    read x
+    clear
 }
 
 #-----------------------------------------------
@@ -37,19 +28,10 @@ wait_clear()
 #-----------------------------------------------
 scenario_1()
 {
+    echo -n "$PS1"
     wait_clear
-    # p "python phishme.py -config demo.json"
-    p "pwsh demo.ps1 -config demo.json"
+    echo "pwsh demo.ps1 -config demo.json"
     pwsh demo.ps1 -config demo.json
-}
-
-#----------------------------------------
-# Scenario 2: Google
-#----------------------------------------
-scenario_2()
-{
-    wait_clear
-    pwsh demo.ps1 -config doit_gcp.json
 }
 
 usage()
@@ -61,12 +43,9 @@ usage()
 
     cat <<EOF
 
-    usage: demo.sh ( 1 | 2 )
+    usage: demo.sh 1
 
-    1       Run Scenario 1: Microsoft
-
-    2       Run Scenario 2: Google
-
+    1       Run Scenario 1: Microsoft. Default.
 
 EOF
     exit 1
@@ -86,11 +65,8 @@ while [[ "$@" ]]; do
     arg=$1
     shift
     case "$arg" in
-    ""|1)
+    1)
         scenario_1
-        ;;
-    2)
-        scenario_2
         ;;
     *)
         usage "Error: invalid scenario #: $arg"
