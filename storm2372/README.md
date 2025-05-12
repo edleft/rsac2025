@@ -18,14 +18,14 @@
 - Install roadtx properly, best to use virtual env for isolation
 - Make sure roadtx executable in path
 - If using a proxy for analysis some of the Selenium launch by roadtx. Did not have time
-  to full troubleshoot.
+    to full troubleshoot.
 - Copy demo.json.tmpl and fill in SMTP server with proper server that takes user/pass
-  Note: Believe Microsoft has secured their O365 SMTP to require OAuth and no longer support
+    Note: Believe Microsoft has secured their O365 SMTP to require OAuth and no longer support
     simpler user/pass (app pwds). Gmail still works. Fastmail as well. Sender domain should
     match. The usual.
 - roadtx.sh is the main demo script
-  - runs demo.ps1 then roadtx, a little hackey in storing token files for roadtx 
-  - roadtx can take tokens on cmd-line but the current demo.ps1 does some hacky stuff of creating a token file for roadtx in the right format. cleanup for later
+    - runs demo.ps1 then roadtx, a little hackey in storing token files for roadtx 
+    - roadtx can take tokens on cmd-line but the current demo.ps1 does some hacky stuff of creating a token file for roadtx in the right format. cleanup for later
 - set USER in roadtx.sh to victim username 
 - set $tenant_id in demo.ps1 to victim tenant id
 
@@ -34,8 +34,32 @@
 2. Run: roadtx.sh
 3. Respond to phishing attack email (victim inbox) with authorization. Use new session and login with MFA.
 4. Clean up artifacts in Entra
-  - device registration (attacker-host)
-  - user > authentication methods > Windows Hello For Business
+    - device registration (attacker-host)
+    - user > authentication methods > Windows Hello For Business
+
+# Attack Flow
+
+![](img/Slide1.png)
+![](img/Slide2.png)
+![](img/Slide3.png)
+![](img/Slide4.png)
+![](img/Slide5.png)
+![](img/Slide6.png)
+![](img/Slide7.png)
+![](img/Slide8.png)
+![](img/Slide9.png)
+![](img/Slide10.png)
+![](img/Slide11.png)
+![](img/Slide12.png)
+![](img/Slide13.png)
+![](img/Slide14.png)
+![](img/Slide15.png)
+![](img/Slide16.png)
+![](img/Slide17.png)
+![](img/Slide18.png)
+![](img/Slide19.png)
+![](img/Slide20.png)
+![](img/Slide21.png)
 
 # Storm 2372 
 - Microsoft advisory
@@ -54,6 +78,5 @@
 # Acknowledgments
 - https://dirkjanm.io/phishing-for-microsoft-entra-primary-refresh-tokens/
 - Dr. Nestori Syynimaa: https://o365blog.com/post/phishing
-- Steve Borosh (rvrsh3ll), Bobby Cooke (boku7): https://github.com/rvrsh3ll/TokenTactics
 - https://github.com/netskopeoss/phish_oauth/blob/master/device_code/pwsh/demo_msft.ps1
 
