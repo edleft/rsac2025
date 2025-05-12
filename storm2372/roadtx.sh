@@ -81,8 +81,9 @@ cat <<EOF
 ##########################################################################################
 
 EOF
-cmd="./demo.sh 1"
-# echo -n "$cmd [Y/n]: "; read x
+# cmd="./demo.sh 1"
+cmd="pwsh demo.ps1 -config demo.json"
+echo -n "$cmd [Y/n]: "; read x
 x=""
 if [[ $x = "" ]]; then $cmd; else echo "skipping..."; fi
 
